@@ -1,0 +1,12 @@
+train: C:\Users\TaeSan\Desktop\S_P\yolov5-master\data\wasps\train\images
+val: C:\Users\TaeSan\Desktop\S_P\yolov5-master\data\wasps\valid\images
+
+nc: 2
+names: ['-', 'Wasp']
+
+roboflow:
+  workspace: project-vrljw
+  project: hornet_only
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-vrljw/hornet_only/dataset/1
